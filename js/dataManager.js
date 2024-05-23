@@ -25,7 +25,7 @@ const symbolMapping = {
   // Agrega más mapeos según necesites para los demás Nombre2
 };
 
-d3.csv("https://raw.githubusercontent.com/hidabril/ISOTOPOS_BOGOTA/main/Resultados_mar2.csv").then(function(data) {
+d3.csv("https://raw.githubusercontent.com/hidabril/ISOTOPOS_BOGOTA/main/Resultados_campus.csv").then(function(data) {
 createButtonsForNombres2(data)
 filterDataAndRenderChart()
 
